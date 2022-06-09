@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620427110409",
+    "project_id": "p2pp-fccad",
+    "storage_bucket": "p2pp-fccad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620427110409:android:d09295488daa0ce7da30d8",
+        "android_client_info": {
+          "package_name": "com.wadis.p2pridesharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620427110409-dc6u38e7t8rqlef6da6bhntr4rh51b4b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFyMfJTB4QaArHu_sUgZjt_TZLPqkLND4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620427110409-dc6u38e7t8rqlef6da6bhntr4rh51b4b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

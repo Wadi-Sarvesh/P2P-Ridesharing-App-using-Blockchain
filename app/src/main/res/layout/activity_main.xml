@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/hash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="hash"
+            android:gravity="center"
+            android:layout_weight="0"
+             />
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:gravity="center"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:id="@+id/previousHash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Hash"
+        android:gravity="center"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Block number"
+        android:gravity="center"
+        android:layout_weight="0"
+        />
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="message"
+        android:gravity="center"
+        android:layout_weight="0"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="horizontal"
+        android:gravity="center|bottom"
+        android:layout_below="@+id/line1"
+
+
+        android:layout_margin="16dp">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/edit_message"
+        android:hint="Enter data here"
+        android:maxLines="5"
+        android:textStyle="normal"
+        android:background="@android:color/transparent"
+         />
+     <ImageButton
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btn_send_data"
+
+         android:background="@android:color/transparent"
+         android:layout_marginStart="16dp"
+
+         android:src="@drawable/ic_baseline_send_24">
+
+     </ImageButton>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

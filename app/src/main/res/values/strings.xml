@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">P2P Ridesharing</string>
+    <string name="text_creating_blockChain" />
+    <string name="text_mining_blocks" />
+    <string name="i_m_a_driver">I\'m a Driver</string>
+    <string name="i_m_a_customer">I\'m a Customer</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+    <string name="pickup">Pickup</string>
+    <string name="dropoff">Dropoff</string>
+    <string name="book_ride">Book ride</string>
+    <string name="enter_pickup">Enter pickup location</string>
+    <string name="enter_dropoff">Enter your destination</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept_ride">Accept ride</string>
+    <string name="finding_drivers">Connecting you to the nearest driver</string>
+</resources>
