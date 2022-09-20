@@ -10,3 +10,7 @@ server failure is encountered. Moreover, Centralized systems
 have a single point of corruption, single point of failure and
 are fragile in nature when compared with decentralized
 systems.
+
+Read the Research paper for this project!
+
+https://www.ijert.org/p2p-ride-sharing-using-blockchain-technology
